@@ -1,0 +1,58 @@
+Catalyst:
+STM32F411RCT6 
+ilość: 2 
+cena: 25,45zł
+dostępny: TME
+
+Cookie:
+ATMEGA128A-AU
+ilość: 3
+cena: 15,71zł
+dostępny: TME
+
+add:
+1. SDP-09L-SG-T/R (Złącze: do kart; SD; push-push) 
+	ilość: 3
+	cena: 4,93
+	dost: TME
+
+2. FM24CL16B-GTR  (Pamięć; FRAM; I2C; 2kx8bit; 2,7÷3,65VDC; SO8)
+	ilość: 6
+	cena: 5,86
+	dost: TME
+
+3. CD74HC4053M (digital 3x2:1 switch)
+	ilość: od zarąbania 
+	cena: 0,66
+	dost: TME
+	note: max switching f ~ 150-200MHz
+
+4. NXP  PCA9543APW (I2C BUS SWITCH, 2 CH, TSSOP-14 )
+	ilość: ???
+	cena: 8,51
+	dost: Farnell, element14 (PL)
+
+5. CD74HC08M (4 channel 2 input AND, SO14)
+	ilość: od zarąbania
+	cena: 0,546
+	dost: TME
+
+6. NXP 74HC11D.652 (3 channel 3 input AND, SO14)
+	ilość: ???
+	cena: 0,588
+	dost: TME
+
+7. PCA9517D (repeater; I2C, SMBus; Kanały:2; 2,7÷5,5VDC; SO8)
+	ilość: ???
+	cena: 8,50
+	dost: TME
+
+8. BAS86 (dioda schottky'ego - sygnałowa)
+	ilość: od zarąbania
+	cena: 0,21
+	dost: TME
+	
+9. NXP   74AHC32D.112 (OR x4, 2 wejścia, SO14)
+	ilość: od zarąbania
+	cena: 0,475
+	dost: TME

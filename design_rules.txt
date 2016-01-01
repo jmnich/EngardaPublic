@@ -1,0 +1,31 @@
+1. elementy podciągające każdego sygnału, który jest podciągany do określonej wartości napięcia, do przenoszenia którego wykorzystano etykiety muszą zostać umieszczone w osobnej sekcji "default states section" wyróżnionej w dowolnym miejscu schematu. 
+uzasadnienie: ma to zapobiec wielokrotnemu podciąganiu sygnału w różnych miejscach schematu, zapobiec przypadkowemu podciąganiu go do różnych napięć oraz polepszyć czytelność schematu poprzez jednoznaczne i wyraźne określenie domyślnego stanu sygnału
+
+ad.1 powyższe wyróżnienie podciagu sygnału należy zawsze umieścić na arkuszu, który jest najwyższy w hierarchii względem wszystkich, na których występuje dany sygnał
+
+2. przełączane bieguny zasilania mają zostać opatrzone pwr_flag na schmemacie, na którym się pojawiają - zawsze na najwyższym w hierarchi arkuszu, na którym występują
+uzasadnienie: ma to podnieść czytelność schematu poprzez jednoznaczne określnie, że przełączany sygnał stanowi biegun zasilania
+
+3.	Język:
+	a) Ostateczna dokumentacja musi być napisana po angielsku, 
+	b) wszystkie oznaczenia i nazwy w projekcie muszą być od początku angielskie i logiczne bądź kodowe,
+	c) w notatkach roboczych dopuszczalne są języki: angielski, polski i ponglish. Liczy się tylko jednoznaczność i spójność.  
+
+4. Sygnały przenoszone przy pomocy etykiet należy opisać na liście sygnałowej. Nie dotyczy to sygnałów o oczywistym przeznaczeniu, np. 'reset' ATmegi, AREF itd. 
+uzasadnienie: jest to niezbędny składnik dokumentacji pozwalający na łatwe debugowanie układu oraz unikanie niezgodności przy projektowaniu i integracji modułów
+
+5. W momencie ukończenia pierwszej wersji roboczej arkusza schematu należy go opatrzyć datą w tabeli. Data ta NIE ulega zmianie przy updatach. 
+uzasadnienie: ułatwi to w przyszłości ustalenie ram czasowych w jakich powstawały poszczególne moduły, głównie do celów archiwalnych 
+
+6. W polu 'Comment1' tabeli należy umieścić imię i nazwisko osoby odpowiedzialnej za dany arkusz. 
+uzasadnienie: jednoznaczny podział odpowiedzialności w pracy zespołu
+
+7. W polu 'Comment2' tabeli należy umieścić datę ostateniej dokonanej zmiany i aktualizować ją za każdym razem gdy zmiana zostanie dokonana. Dotyczy to każdej operacji na arkuszu włącznie z przesuwaniem elementów bez zmiany połączeń elektrycznych. Po dacie należy podac również imię i nazwisko osoby, która dokonała zmiany. 
+format: DDMMRRRR Imię Nazwisko, np. 30022017 Jan Kowalski  
+uzasadnienie: może to pozwolić na wykrycie istnienia dwóch różnych wersji roboczych tego samego schematu badź ułatwić ustalenie kto dokonał zmiany o niejasnym przeznaczeniu bądź z błędem 
+
+8. Przed dokonaniem jakiejkolwiek zmiany w arkuszu należy uzyskać zgodę na tą zmianę od osoby odpowiedzialnej. 
+uzasadnienie: zabieg uniemożliwiający powstanie dwóch różniących się od siebie wersji roboczych tego samego arkusza 
+
+9. Stosowany format arkusza to A4. 
+uzasadnienie: ułatwi to wydruk projektu oraz jego odczytywanie na urządzeniach takich jak tablety i laptopy 
