@@ -1,4 +1,4 @@
-update=04/01/2016 19:18:09
+update=05/01/2016 00:18:59
 version=1
 last_client=kicad
 [cvpcb]
@@ -55,22 +55,15 @@ SpiceUseNetNumbers=0
 LabSize=118
 [eeschema]
 version=1
-LibDir=library_pack_engarda;library_pack_engarda/KiCAD_engarda_libs
+LibDir=../engarda_1/engarda_schem_lib
 [eeschema/libraries]
-LibName1=engarda_0-rescue
-LibName2=device
-LibName3=power
-LibName4=74ahc00d
-LibName5=74ahc32d112
-LibName6=74hc11
-LibName7=74X_gates
-LibName8=bts3205g
-LibName9=cd74hc08e
-LibName10=cd74hc4053
-LibName11=dac6573
-LibName12=fm24cl16b
-LibName13=hmc5883l
-LibName14=lis3dh
-LibName15=pca9517
-LibName16=stm32
-LibName17=library_pack_engarda/SparkFun
+LibName1=C:/Users/jkmbo_000/Documents/DATA BANK/Projekty/SETE/Engarda/EngardaPublic/engarda_1/engarda_schem_lib/74xx_engarda
+LibName2=C:/Users/jkmbo_000/Documents/DATA BANK/Projekty/SETE/Engarda/EngardaPublic/engarda_1/engarda_schem_lib/altera_engarda
+LibName3=C:/Users/jkmbo_000/Documents/DATA BANK/Projekty/SETE/Engarda/EngardaPublic/engarda_1/engarda_schem_lib/conn_engarda
+LibName4=C:/Users/jkmbo_000/Documents/DATA BANK/Projekty/SETE/Engarda/EngardaPublic/engarda_1/engarda_schem_lib/cypress_engarda
+LibName5=C:/Users/jkmbo_000/Documents/DATA BANK/Projekty/SETE/Engarda/EngardaPublic/engarda_1/engarda_schem_lib/device_engarda
+LibName6=C:/Users/jkmbo_000/Documents/DATA BANK/Projekty/SETE/Engarda/EngardaPublic/engarda_1/engarda_schem_lib/honeywell_engarda
+LibName7=C:/Users/jkmbo_000/Documents/DATA BANK/Projekty/SETE/Engarda/EngardaPublic/engarda_1/engarda_schem_lib/infineon_switch_engarda
+LibName8=C:/Users/jkmbo_000/Documents/DATA BANK/Projekty/SETE/Engarda/EngardaPublic/engarda_1/engarda_schem_lib/power_engarda
+LibName9=C:/Users/jkmbo_000/Documents/DATA BANK/Projekty/SETE/Engarda/EngardaPublic/engarda_1/engarda_schem_lib/st_engarda
+LibName10=C:/Users/jkmbo_000/Documents/DATA BANK/Projekty/SETE/Engarda/EngardaPublic/engarda_1/engarda_schem_lib/ti_engarda
