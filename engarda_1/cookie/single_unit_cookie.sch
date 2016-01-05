@@ -13,7 +13,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 2 2
 Title ""
 Date ""
 Rev ""
@@ -24,9 +24,9 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 900  950  1100 3900
-U 568BAD71
-F0 "uC_1" 60
-F1 "single_unit_cookie.sch" 60
+S 1300 1100 850  2550
+U 568BAEAD
+F0 "memory_bank" 60
+F1 "single_mem_bank_cookie.sch" 60
 $EndSheet
 $EndSCHEMATC
